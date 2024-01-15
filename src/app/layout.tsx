@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
+import Header from "@/components/Header";
+
 import "./globals.css";
 
 const raleway = Raleway({
@@ -20,7 +22,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${raleway.variable}`}>
-      <body>{children}</body>
+      <body className="bg-gray-50">
+        <Header />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }

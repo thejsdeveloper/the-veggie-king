@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <header className="sticky top-0 h-20 shadow px-104 flex flex-row justify-between items-center">
+    <header className="sticky top-0 h-20 shadow px-104 flex flex-row justify-between items-center fixed">
       <Image src={logo} alt="Veggie King Logo" />
       <nav>
         <ul className="flex flex-row space-x-10 text-caption font-semibold uppercase text-gray-900 tracking-tight">

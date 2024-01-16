@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en" className={`${raleway.variable}`}>
       <body className="bg-gray-50">
         <Header />
-        <main>{children}</main>
+        {children}
       </body>
     </html>
   );

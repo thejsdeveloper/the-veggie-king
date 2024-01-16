@@ -31,10 +31,12 @@ const config: Config = {
         lg: "35px",
         md: "25px",
         sm: "20px",
+        xs: "18px",
         caption: "17px",
       },
       spacing: {
         104: "104px",
+        404: "404px",
       },
       letterSpacing: {
         tighter: "0.25px",

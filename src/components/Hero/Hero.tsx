@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { useInterval } from "usehooks-ts";
 
+import heroCornerFood from "public/images/hero-section-food.png";
 import heroFood1 from "public/images/hero-section-slide-food-1.png";
 import heroFood2 from "public/images/hero-section-slide-food-2.png";
 import heroFood3 from "public/images/hero-section-slide-food-2.png";
@@ -21,7 +22,7 @@ function Hero() {
 
   return (
     <section className="flex flex-row flex-1  bg-gray-50">
-      <aside className="pl-104 flex-1 flex flex-col justify-center">
+      <aside className="pl-104 flex-1 flex flex-col justify-center relative">
         <h1 className="uppercase text-xl color-gray-900 font-black tracking-wide">
           Healthy & fresh Food for you
         </h1>
@@ -42,6 +43,11 @@ function Hero() {
             </span>
           </button>
         </div>
+        <Image
+          src={heroCornerFood}
+          alt="chilli image"
+          className="absolute bottom-0 left-0 "
+        />
       </aside>
       <aside className="flex-1 flex flex-col">
         <div className="flex-1 flex flex-col justify-center bg-green-600 relative w-404 self-end relative">

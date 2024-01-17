@@ -37,6 +37,7 @@ const config: Config = {
       spacing: {
         104: "104px",
         404: "404px",
+        646: "646px",
       },
       letterSpacing: {
         tighter: "0.25px",

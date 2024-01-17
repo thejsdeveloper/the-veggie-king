@@ -30,7 +30,10 @@ function Hero() {
           Created for lovers of healthy, delicious and non-obvious food.
         </p>
         <div className="mt-4 ">
-          <button type="button" className="bg-orange-600 px-4 py-4 rounded-lg">
+          <button
+            type="button"
+            className="bg-orange-600 hover:bg-orange-500 px-4 py-4 rounded-lg"
+          >
             <span className="color-gray-900 text-base font-medium tracking-wide">
               Check Menu
             </span>

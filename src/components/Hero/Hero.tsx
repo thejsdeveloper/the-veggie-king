@@ -21,7 +21,7 @@ function Hero() {
   const currentImage = images[currentIndex % images.length];
 
   return (
-    <section className="flex flex-row flex-1  bg-gray-50">
+    <section className="flex min-h-screen flex-row flex-1  bg-gray-50">
       <aside className="pl-104 flex-1 flex flex-col justify-center relative">
         <h1 className="uppercase text-xl color-gray-900 font-black tracking-wide">
           Healthy & fresh Food for you
@@ -30,7 +30,10 @@ function Hero() {
           Created for lovers of healthy, delicious and non-obvious food.
         </p>
         <div className="mt-4 ">
-          <button type="button" className="bg-orange-600 px-4 py-4 rounded-lg">
+          <button
+            type="button"
+            className="bg-orange-600 hover:bg-orange-500 px-4 py-4 rounded-lg"
+          >
             <span className="color-gray-900 text-base font-medium tracking-wide">
               Check Menu
             </span>

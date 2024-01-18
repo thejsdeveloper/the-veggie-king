@@ -5,7 +5,7 @@ import aboutUsFoodImage from "public/images/about-us-section-food.png";
 
 function AboutUs() {
   return (
-    <section className="flex flex-row h-646 my-32">
+    <section id="about-us" className="flex flex-row h-646 my-32">
       <div className="flex-1 relative">
         <div className="flex flex-column items-center absolute -left-1/3 bg-green-600 h-646 w-646 rounded-full">
           <Image

@@ -9,6 +9,7 @@ import heroFood2 from "public/images/hero-section-slide-food-2.png";
 import heroFood3 from "public/images/hero-section-slide-food-2.png";
 import heroFood4 from "public/images/hero-section-slide-food-3.png";
 import checkMenuIcon from "public/icons/check-menu-icon.svg";
+import Link from "next/link";
 
 const images = [heroFood1, heroFood2, heroFood3, heroFood4];
 
@@ -21,7 +22,10 @@ function Hero() {
   const currentImage = images[currentIndex % images.length];
 
   return (
-    <section className="flex min-h-screen flex-row flex-1  bg-gray-50">
+    <section
+      id="home"
+      className="flex min-h-screen flex-row flex-1  bg-gray-50"
+    >
       <aside className="pl-104 flex-1 flex flex-col justify-center relative">
         <h1 className="uppercase text-xl color-gray-900 font-black tracking-wide">
           Healthy & fresh Food for you
@@ -30,21 +34,23 @@ function Hero() {
           Created for lovers of healthy, delicious and non-obvious food.
         </p>
         <div className="mt-4 ">
-          <button
-            type="button"
-            className="bg-orange-600 hover:bg-orange-500 px-4 py-4 rounded-lg"
-          >
-            <span className="color-gray-900 text-base font-medium tracking-wide">
-              Check Menu
-            </span>
-            <span className="ml-2">
-              <Image
-                src={checkMenuIcon}
-                alt="right arrow icon"
-                className="inline"
-              />
-            </span>
-          </button>
+          <Link href="#menu">
+            <button
+              type="button"
+              className="bg-orange-600 hover:bg-orange-500 px-4 py-4 rounded-lg"
+            >
+              <span className="color-gray-900 text-base font-medium tracking-wide">
+                Check Menu
+              </span>
+              <span className="ml-2">
+                <Image
+                  src={checkMenuIcon}
+                  alt="right arrow icon"
+                  className="inline"
+                />
+              </span>
+            </button>
+          </Link>
         </div>
         <Image
           src={heroCornerFood}

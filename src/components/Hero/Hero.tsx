@@ -21,7 +21,10 @@ function Hero() {
   const currentImage = images[currentIndex % images.length];
 
   return (
-    <section className="flex min-h-screen flex-row flex-1  bg-gray-50">
+    <section
+      id="home"
+      className="flex min-h-screen flex-row flex-1  bg-gray-50"
+    >
       <aside className="pl-104 flex-1 flex flex-col justify-center relative">
         <h1 className="uppercase text-xl color-gray-900 font-black tracking-wide">
           Healthy & fresh Food for you

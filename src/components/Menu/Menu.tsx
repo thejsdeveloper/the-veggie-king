@@ -4,7 +4,7 @@ import { MenuCards } from "@/constants";
 
 function Menu() {
   return (
-    <section className="flex flex-col mb-32">
+    <section className="flex flex-col mb-32" id="menu">
       <div className="flex-1 flex flex-col items-center justify-center space-y-4">
         <h3 className="text-orange-600 text-sm font-normal tracking-wide">
           Menu

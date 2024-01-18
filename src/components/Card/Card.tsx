@@ -4,8 +4,14 @@ import * as React from "react";
 
 function Card({ img, altText, title, description }: Card) {
   return (
-    <div className="w-96 shadow rounded-br-2xl rounded-bl-2xl bg-white">
-      <Image src={img} alt={altText} />
+    <div className="w-96 cursor-pointer shadow  rounded-br-2xl rounded-bl-2xl bg-white">
+      <div className="overflow-hidden">
+        <Image
+          src={img}
+          alt={altText}
+          className="hover:scale-125 ease-in duration-300"
+        />
+      </div>
       <div className="py-6 px-5 space-y-4">
         <h1 className="text-gray-900 text-md font-semibold tracking-wide">
           {title}

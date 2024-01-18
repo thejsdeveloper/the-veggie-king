@@ -46,7 +46,7 @@ const config: Config = {
         wide: "1px",
       },
       boxShadow: {
-        shadow: "0px 10px 20px 0px rgba(33, 33, 33, 0.25)",
+        DEFAULT: "0px 10px 20px 0px rgba(33, 33, 33, 0.25)",
       },
     },
   },

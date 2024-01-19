@@ -9,7 +9,7 @@ function Card({ img, altText, title, description }: Card) {
         <Image
           src={img}
           alt={altText}
-          className="hover:scale-125 ease-in duration-300"
+          className="hover:scale-125 ease-linear duration-500"
         />
       </div>
       <div className="py-6 px-5 space-y-4">

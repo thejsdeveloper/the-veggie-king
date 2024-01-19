@@ -5,8 +5,11 @@ import aboutUsFoodImage from "public/images/about-us-section-food.png";
 
 function AboutUs() {
   return (
-    <section id="about-us" className="flex flex-row h-646 my-32">
-      <div className="flex-1 relative">
+    <section
+      id="about-us"
+      className="grid grid-rows-1 grid-cols-2 pt-32  pr-104"
+    >
+      <div className="flex-1 h-646 relative">
         <div className="flex flex-column items-center absolute -left-1/3 bg-green-600 h-646 w-646 rounded-full">
           <Image
             src={aboutUsFoodImage}
@@ -15,7 +18,7 @@ function AboutUs() {
           />
         </div>
       </div>
-      <div className="flex-1 flex flex-col justify-center space-y-4 h-full pr-104">
+      <div className="flex-1 flex flex-col justify-center space-y-4 h-full">
         <h3 className="text-orange-600 text-sm font-normal tracking-wide">
           About Us
         </h3>

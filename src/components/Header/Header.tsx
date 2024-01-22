@@ -19,7 +19,7 @@ function Header() {
             <Link href="#menu">Menu</Link>
           </li>
           <li>
-            <Link href="#">Contact</Link>
+            <Link href="#contact-us">Contact</Link>
           </li>
         </ul>
       </nav>

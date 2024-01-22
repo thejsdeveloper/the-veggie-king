@@ -1,4 +1,4 @@
-# The Veggie King Project
+# The Veggie King Project - In progress
 
 Fully responsive landing page website, with optimized layouts.
 

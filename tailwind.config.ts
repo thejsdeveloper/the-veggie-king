@@ -48,6 +48,9 @@ const config: Config = {
       boxShadow: {
         DEFAULT: "0px 10px 20px 0px rgba(33, 33, 33, 0.25)",
       },
+      gridTemplateColumns: {
+        footer: "auto 1fr 1fr",
+      },
     },
   },
   plugins: [],

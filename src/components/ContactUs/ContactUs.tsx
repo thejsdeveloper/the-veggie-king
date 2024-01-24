@@ -17,7 +17,7 @@ function ContactUs() {
       </div>
       <div className="mt-14 flex flex-row items-center justify-center space-x-8">
         <div className="flex flex-col items-center justify-center flex-1 space-y-4 rounded-full shadow bg-white px-16 py-5">
-          <TimeIcon />
+          <TimeIcon className="w-12 h-12" />
           <h1 className="text-gray-900 text-md font-semibold tracking-wide">
             Today 12 pm - 9 pm
           </h1>
@@ -25,7 +25,7 @@ function ContactUs() {
         </div>
 
         <div className="flex flex-col items-center  justify-center flex-1 space-y-4 rounded-full shadow bg-white px-16 py-5">
-          <MapIcon />
+          <MapIcon className="w-12 h-12" />
           <h1 className="text-gray-900 text-md font-semibold tracking-wide">
             3883 Rupert St, Vancouver
           </h1>
@@ -33,7 +33,7 @@ function ContactUs() {
         </div>
 
         <div className="flex flex-col items-center  justify-center space-y-4 flex-1 rounded-full shadow bg-white px-16 py-5">
-          <PhoneIcon />
+          <PhoneIcon className="w-12 h-12" />
           <h1 className="text-gray-900 text-md font-semibold tracking-wide">
             (604) 569-2198
           </h1>

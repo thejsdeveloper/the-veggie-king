@@ -36,9 +36,9 @@ function Footer() {
             specials and promotions. Check our socials.
           </p>
           <div className="flex flex-row space-x-4 items-center">
-            <TwitterIcon className="cursor-pointer sepia-0" />
-            <FbIcon />
-            <InstagramIcon />
+            <TwitterIcon className="cursor-pointer fill-black hover:fill-green-600" />
+            <FbIcon className="cursor-pointer fill-black  hover:fill-green-600" />
+            <InstagramIcon className="cursor-pointer fill-black  hover:fill-green-600" />
           </div>
         </div>
       </div>

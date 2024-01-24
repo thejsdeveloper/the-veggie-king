@@ -8,7 +8,7 @@ import heroFood1 from "public/images/hero-section-slide-food-1.png";
 import heroFood2 from "public/images/hero-section-slide-food-2.png";
 import heroFood3 from "public/images/hero-section-slide-food-2.png";
 import heroFood4 from "public/images/hero-section-slide-food-3.png";
-import checkMenuIcon from "public/icons/check-menu-icon.svg";
+import CheckMenuIcon from "public/icons/check-menu-icon.svg";
 import Link from "next/link";
 
 const images = [heroFood1, heroFood2, heroFood3, heroFood4];
@@ -43,11 +43,7 @@ function Hero() {
                 Check Menu
               </span>
               <span className="ml-2">
-                <Image
-                  src={checkMenuIcon}
-                  alt="right arrow icon"
-                  className="inline"
-                />
+                <CheckMenuIcon className="inline" />
               </span>
             </button>
           </Link>

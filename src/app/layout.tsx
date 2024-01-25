@@ -3,6 +3,7 @@ import { Raleway } from "next/font/google";
 import Header from "@/components/Header";
 
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const raleway = Raleway({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className="bg-gray-50">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

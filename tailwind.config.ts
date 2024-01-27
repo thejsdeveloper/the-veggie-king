@@ -28,7 +28,7 @@ const config: Config = {
       },
       fontSize: {
         xl: "61px",
-        lg: "35px",
+        lg: "32px",
         md: "25px",
         sm: "20px",
         xs: "18px",
@@ -38,6 +38,8 @@ const config: Config = {
         104: "104px",
         404: "404px",
         646: "646px",
+        477: "477px",
+        358: "358px",
       },
       letterSpacing: {
         tighter: "0.25px",

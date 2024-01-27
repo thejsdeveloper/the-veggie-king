@@ -8,9 +8,13 @@ import Link from "next/link";
 function Footer() {
   return (
     <footer className="flex flex-col mt-32 bg-gray-300 divide-y divide-gray-900/[.32]">
-      <div className="grid grid-cols-footer gap-4 py-6  px-104">
+      <div
+        className="flex flex-col md:grid md:grid-cols-footer gap-8 
+                    py-6 px-4 md:px-12 lg:px-104
+                    "
+      >
         <Logo />
-        <nav className="flex flex-row justify-evenly flex-1 mt-2">
+        <nav className="flex flex-col lg:flex-row justify-start lg:justify-evenly space-y-6 lg:space-y-0 flex-1 mt-2">
           <Link
             href="#about-us"
             className="text-caption text-gray-900 font-semibold uppercase tracking-tight"

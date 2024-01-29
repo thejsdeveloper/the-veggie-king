@@ -15,16 +15,28 @@ function Header() {
   };
 
   return (
-    <header className="py-5 px-4 md:px-12 lg:px-104 flex flex-col md:flex-row justify-between  md:items-center bg-gray-50 shadow z-50 fixed top-0 right-0 left-0 ">
+    <header
+      className="py-5 
+      px-4 md:px-12 lg:px-104 
+      flex flex-col md:flex-row justify-between md:items-center
+    bg-gray-50 shadow z-50  top-0 right-0 left-0 fixed"
+    >
       <div className="flex flex-row items-center justify-between ">
-        <Link href="#home">
+        <Link href="#home" aria-label="Veggie King Logo">
           <Logo />
         </Link>
-        <button className="w-6 h-6 md:invisible" onClick={handleMenuClick}>
+        <button
+          className="w-6 h-6 md:invisible"
+          onClick={handleMenuClick}
+          aria-controls="Main Navigation"
+          aria-expanded={open}
+        >
+          <span className="sr-only">Menu</span>
           {open ? <CloseMenuIcon /> : <MenuIcon />}
         </button>
       </div>
       <nav
+        id="Main Navigation"
         className={`flex 
             flex-col 
             md:flex-row items-center 
@@ -32,7 +44,8 @@ function Header() {
             md:space-x-10 my-104 md:my-0 
             text-caption font-semibold uppercase
           text-gray-900 tracking-tight
-            ${open ? "block" : "hidden md:block"}`}
+            ${open ? "" : "hidden"}`}
+        aria-label="Main Navigation"
       >
         <Link href="#about-us">About Us</Link>
         <Link href="#menu">Menu</Link>

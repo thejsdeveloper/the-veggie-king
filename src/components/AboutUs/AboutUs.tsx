@@ -45,9 +45,9 @@ function AboutUs() {
                   space-y-4 
                   h-full w-[75%] md:w-full"
       >
-        <h3 className="text-orange-600 text-sm font-normal tracking-wide">
+        <h2 className="text-orange-600 text-sm font-normal tracking-wide">
           About Us
-        </h3>
+        </h2>
         <h2 className="text-gray-900 text-md md:text-lg font-semibold tracking-tighter">
           Few words about us
         </h2>

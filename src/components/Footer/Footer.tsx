@@ -7,14 +7,17 @@ import Link from "next/link";
 
 function Footer() {
   return (
-    <footer className="flex flex-col mt-32 bg-gray-300 divide-y divide-gray-900/[.32]">
+    <footer className="flex flex-col mt-5 md:mt-32 bg-gray-300 divide-y divide-gray-900/[.32]">
       <div
         className="flex flex-col md:grid md:grid-cols-footer gap-8 
                     py-6 px-4 md:px-12 lg:px-104
                     "
       >
         <Logo />
-        <nav className="flex flex-col lg:flex-row justify-start lg:justify-evenly space-y-6 lg:space-y-0 flex-1 mt-2">
+        <nav
+          className="flex flex-col lg:flex-row justify-start lg:justify-evenly space-y-6 lg:space-y-0 flex-1 mt-2"
+          aria-label="footer navigation"
+        >
           <Link
             href="#about-us"
             className="text-caption text-gray-900 font-semibold uppercase tracking-tight"
@@ -46,7 +49,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row items-center px-104">
+      <div className="flex flex-row items-center px-4 md:px-12 lg:px-104">
         <p className="my-6 text-xs text-normal">© 2023 The Veggie King</p>
       </div>
     </footer>

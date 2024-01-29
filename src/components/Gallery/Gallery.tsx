@@ -11,7 +11,7 @@ const photos = [photo1, photo2, photo3, photo4, photo5, photo6];
 
 function Gallery() {
   return (
-    <section className="flex flex-col pt-32">
+    <section className="flex flex-col pt-5 md:pt-32">
       <h2 className="flex flex-row justify-center mb-7 text-gray-900 text-md lg:text-lg font-semibold tracking-tighter">
         Good food = happy clients
       </h2>

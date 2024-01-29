@@ -33,8 +33,7 @@ function Hero() {
       <aside
         className="relative
         pl-4 md:pl-12 lg:pl-104
-        flex flex-row flex-1 md:items-center
-        mt-32 md:mt-0 "
+        flex flex-row flex-1 items-center"
       >
         <div className="flex flex-col flex-1 z-10">
           <h1 className="text-lg md:text-xl color-gray-900 font-black tracking-tighter md:tracking-wide">
@@ -46,9 +45,9 @@ function Hero() {
           <p className="color-gray-900 text-xs font-normal my-4 w-3/4">
             Created for lovers of healthy, delicious and non-obvious food.
           </p>
-          <Link href="#menu">
-            <button
-              type="button"
+          <div className="my-4">
+            <Link
+              href="#menu"
               className="bg-orange-600 hover:bg-orange-500 px-4 py-4 rounded-lg"
             >
               <span className="color-gray-900 text-base font-medium tracking-wide">
@@ -57,8 +56,8 @@ function Hero() {
               <span className="ml-2">
                 <CheckMenuIcon className="inline" />
               </span>
-            </button>
-          </Link>
+            </Link>
+          </div>
         </div>
 
         <Image

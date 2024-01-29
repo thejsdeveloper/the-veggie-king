@@ -23,7 +23,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${raleway.variable} scroll-smooth`}>
-      <bds />
       <body className="bg-gray-50">
         <Header />
         {children}

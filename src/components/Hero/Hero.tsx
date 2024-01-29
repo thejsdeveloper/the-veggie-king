@@ -6,8 +6,8 @@ import { useInterval } from "usehooks-ts";
 import heroCornerFood from "public/images/hero-section-food.png";
 import heroFood1 from "public/images/hero-section-slide-food-1.png";
 import heroFood2 from "public/images/hero-section-slide-food-2.png";
-import heroFood3 from "public/images/hero-section-slide-food-2.png";
-import heroFood4 from "public/images/hero-section-slide-food-3.png";
+import heroFood3 from "public/images/hero-section-slide-food-3.png";
+import heroFood4 from "public/images/hero-section-slide-food-4.png";
 import CheckMenuIcon from "public/icons/check-menu-icon.svg";
 import Link from "next/link";
 

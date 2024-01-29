@@ -6,7 +6,7 @@ function Menu() {
   return (
     <section
       className="flex flex-col 
-                  pt-32 
+                  pt-5 md:pt-32
                   px-4 md:px-12 lg:px-104 "
       id="menu"
     >
@@ -16,9 +16,9 @@ function Menu() {
                   justify-center space-y-4
       "
       >
-        <h3 className="text-orange-600 text-sm font-normal tracking-wide">
+        <h2 className="text-orange-600 text-sm font-normal tracking-wide">
           Menu
-        </h3>
+        </h2>
         <h2 className="text-gray-900 text-md md:text-lg font-semibold tracking-tighter">
           Explore our best food
         </h2>

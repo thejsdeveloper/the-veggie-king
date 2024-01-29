@@ -7,7 +7,7 @@ import Menu from "@/components/Menu";
 
 export default function Home() {
   return (
-    <main className="flex flex-col pt-20">
+    <main className="flex flex-col">
       <Hero />
       <AboutUs />
       <Menu />

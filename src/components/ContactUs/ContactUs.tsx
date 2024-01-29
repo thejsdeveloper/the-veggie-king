@@ -8,20 +8,20 @@ function ContactUs() {
   return (
     <section
       id="contact-us"
-      className="flex flex-col pt-32 px-4 md:px-12 xl:px-104"
+      className="flex flex-col pt-5 md:pt-32 px-4 md:px-12 xl:px-104"
     >
       <div className="flex-1 flex flex-col items-center justify-center space-y-4">
-        <h3 className="text-orange-600 text-sm font-normal tracking-wide">
+        <h2 className="text-orange-600 text-sm font-normal tracking-wide">
           Contact
-        </h3>
+        </h2>
         <h2 className="text-gray-900 text-md md:text-lg font-semibold tracking-tighter">
           We’re waiting for you!
         </h2>
       </div>
       <div
-        className="mt-14 
-        flex flex-col md:flex-row md:flex-wrap gap-8
-        justify-center md:items-center
+        className="my-14 
+        flex flex-col md:flex-row flex-wrap gap-8
+        justify-center items-center
         space-y-8 md:space-y-0
         space-x-0 md:space-x-8 
       "
@@ -33,7 +33,8 @@ function ContactUs() {
             space-y-4
             py-5
             px-3
-            w-404
+            w-full
+            max-w-404
             rounded-full shadow bg-white"
         >
           <TimeIcon className="w-12 h-12" />
@@ -50,7 +51,8 @@ function ContactUs() {
             space-y-4
             py-5
             px-3
-            w-404
+            w-full
+            max-w-404
             rounded-full shadow bg-white"
         >
           <MapIcon className="w-12 h-12" />
@@ -66,8 +68,8 @@ function ContactUs() {
             justify-center 
             space-y-4
             py-5
-            px-3
-            w-404
+            w-full
+            max-w-404
             rounded-full shadow bg-white"
         >
           <PhoneIcon className="w-12 h-12" />

@@ -10,7 +10,7 @@ function AboutUs() {
       className="flex flex-col-reverse 
       md:grid grid-rows-1 grid-cols-2
       pl-4 md:pr-12 lg:pr-104 
-      pt-5 md:pt-32
+      pt-32
       overflow-hidden
       "
     >

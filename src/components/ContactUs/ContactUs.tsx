@@ -8,7 +8,7 @@ function ContactUs() {
   return (
     <section
       id="contact-us"
-      className="flex flex-col pt-5 md:pt-32 px-4 md:px-12 xl:px-104"
+      className="flex flex-col pt-32 px-4 md:px-12 xl:px-104"
     >
       <div className="flex-1 flex flex-col items-center justify-center space-y-4">
         <h2 className="text-orange-600 text-sm font-normal tracking-wide">

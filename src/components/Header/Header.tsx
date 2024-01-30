@@ -46,6 +46,7 @@ function Header() {
           text-gray-900 tracking-tight
             ${open ? "" : "hidden md:block"}`}
         aria-label="Main Navigation"
+        onClick={handleMenuClick}
       >
         <Link href="#about-us">About Us</Link>
         <Link href="#menu">Menu</Link>

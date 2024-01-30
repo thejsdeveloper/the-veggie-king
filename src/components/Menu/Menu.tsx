@@ -6,7 +6,7 @@ function Menu() {
   return (
     <section
       className="flex flex-col 
-                  pt-5 md:pt-32
+                  pt-32
                   px-4 md:px-12 lg:px-104 "
       id="menu"
     >

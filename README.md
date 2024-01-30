@@ -14,15 +14,9 @@ You can checkout the deployed version [here](https://thejsdeveloper-the-veggie-k
 
 ## Tech stack
 
-- <a href="https://nextjs.org/">
-    <img align="left" alt="Next.js" width="21px" src="public/icons/next.svg" />
-  </a>
-- <a href="https://tailwindcss.com/r">
-    <img align="left" alt="Tailwindcss" width="21px" src="public/icons/tailwindcss.svg" />
-  </a>
-- TypeScript <a href="https://www.typescriptlang.org/">
-  <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png">
-  </a>
+- Next.js
+- Tailwind css
+- Typescript
 
 ## Setup
 

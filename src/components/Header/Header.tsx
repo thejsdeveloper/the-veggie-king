@@ -44,7 +44,7 @@ function Header() {
             md:space-x-10 my-104 md:my-0 
             text-caption font-semibold uppercase
           text-gray-900 tracking-tight
-            ${open ? "" : "hidden"}`}
+            ${open ? "" : "hidden md:block"}`}
         aria-label="Main Navigation"
       >
         <Link href="#about-us">About Us</Link>

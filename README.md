@@ -1,6 +1,10 @@
-# The Veggie King Project
+# [The Veggie King Project](https://thejsdeveloper-the-veggie-king.vercel.app/)
 
 Fully responsive landing page website, with optimized layouts.
+
+## Live app
+
+You can checkout the deployed version [here](https://thejsdeveloper-the-veggie-king.vercel.app/)
 
 ## Project Brief
 
@@ -19,3 +23,45 @@ Fully responsive landing page website, with optimized layouts.
 - TypeScript <a href="https://www.typescriptlang.org/">
   <img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png">
   </a>
+
+## Setup
+
+### Clone the repo by running
+
+```sh
+ git clone https://github.com/thejsdeveloper/the-veggie-king.git
+```
+
+### Go to project directory
+
+```sh
+ cd the-veggie-king
+```
+
+### Install the dependencies
+
+```sh
+  yarn install
+```
+
+or
+
+```sh
+  npm install
+```
+
+### Run project locally
+
+```sh
+  yarn dev
+```
+
+or
+
+```sh
+npm run dev
+```
+
+### Go to the browser
+
+Navigate to the `http://localhost:3000` to see the app
